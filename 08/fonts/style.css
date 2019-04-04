@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'my_icon';
+  src:
+    url('fonts/my_icon.ttf?kr5sxr') format('truetype'),
+    url('fonts/my_icon.woff?kr5sxr') format('woff'),
+    url('fonts/my_icon.svg?kr5sxr#my_icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my_icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Anchor:before {
+  content: "\e900";
+}
+.icon-Diamond:before {
+  content: "\e901";
+}
+.icon-Eyeglasses:before {
+  content: "\e902";
+}
+.icon-Monitor:before {
+  content: "\e903";
+}

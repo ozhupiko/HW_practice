@@ -1,0 +1,124 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.bg {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    background-color: #E4E4D8;
+    margin-top: 80px;
+}
+
+.title {
+    color: #898f99;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.1px;
+
+    padding-left: 415px;
+    padding-top: 2px;
+}
+
+h1 {
+
+    color: #0ec8cb;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-left: 198px;
+    letter-spacing: 4.9px;
+    margin-top: 0px;
+    padding-top: 15px;
+
+}
+
+.text {
+
+    color: #999;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 7px 204px 0px 201px;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+.col-3 {
+    text-align: center;
+    padding-top: 55px;
+}
+
+.glasses,
+.monitor {
+    padding-top: 66px;
+}
+
+
+.icon-Anchor,
+.icon-Diamond {
+    font-size: 65px;
+
+}
+
+.icon-Eyeglasses,
+.icon-Monitor {
+    font-size: 50px;
+
+}
+
+h2 {
+    color: #1b1b1b;
+
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.design {
+    padding-top: 36px;
+}
+
+.development {
+
+    padding: 42px 5px 0px;
+    margin-top: 0px;
+}
+
+.graphics,
+.Illustrations {
+    padding: 58px 5px 0px;
+    margin-top: 0px;
+}
+
+
+
+.fresh {
+    color: #777;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 6px 9.1px;
+    letter-spacing: 0.1px;
+
+}
+
+.fresh_development {
+    margin-top: 0px;
+    padding-top: 3px;
+}
+
+.col-3:hover {
+    background-color: #0ec8cb;
+    color: white;
+
+}

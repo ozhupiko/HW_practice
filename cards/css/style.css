@@ -1,0 +1,234 @@
+/* .icon-spades:before {
+    content: "\e917";
+  } */
+.row--margin{
+    margin-bottom: 20px;
+}
+.col-2--border {
+    border: 1px solid black;
+    height: 320px;
+    border-radius: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.col-2_item {
+    position: relative;
+}
+
+.item_p--top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.item_p--top--10 {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+}
+.item_p--top--k {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+
+.item_mark--top {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.item_mark--top--10 {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+}
+
+.item_p--bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.item_p--bottom--10 {
+    position: absolute;
+    bottom: 10px;
+    right: 4px;
+    transform: rotate(180deg);
+}
+.item_p--bottom--k {
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+    transform: rotate(180deg);
+}
+.item_mark--bottom {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.item_mark--bottom--10 {
+    position: absolute;
+    bottom: 40px;
+    right: 12px;
+    transform: rotate(180deg);
+}
+
+
+.d-flex_nominal {
+    font-size: 45px;
+}
+
+.flex-row {
+    height: 60px;
+}
+
+.flex-row--10 {
+    height: 50px;
+    margin-bottom: -5px;
+}
+
+.d-flex--margin-top {
+    margin-top: 20px;
+}
+
+.d-flex:nth-child(odd) {
+    justify-content: space-between;
+}
+
+.d-flex:nth-child(even) {
+    justify-content: center;
+}
+
+.d-flex:last-child {
+    transform: rotate(180deg);
+    padding-top: 20px;
+}
+
+.d-flex:nth-child(5n-1) {
+    transform: rotate(180deg);
+    padding-top: 20px;
+}
+
+.d-flex--9:nth-child(2) {
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.d-flex--9:nth-child(4) {
+    justify-content: space-between;
+    padding-top: 34px;
+}
+
+.d-flex--9:nth-child(3) {
+    justify-content: center;
+}
+
+.d-flex--10:nth-child(2) {
+    justify-content: center;
+    padding-top: 0px;
+    margin-bottom: -5px;
+}
+
+.d-flex--10:nth-child(5) {
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: -4px;
+}
+
+.d-flex--10:nth-child(3) {
+    justify-content: space-between;
+    padding-top: 0px;
+}
+
+.d-flex--10:nth-child(4) {
+    justify-content: space-between;
+    padding-top: 0px;
+}
+
+.d-flex--10:last-child {
+    justify-content: space-between;
+    padding-top: 3px;
+}
+
+.container_nominal--J {
+   
+    height: 280px;
+    
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.flipcard .card__back {
+    background-size: cover;
+   
+}
+
+.card__face {}
+
+.flipcard {
+    position: relative;
+   
+    height: 320px;
+    /* perspective: 500px; */
+}
+
+.flipcard .card__face,
+.flipcard .card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+
+
+
+    backface-visibility: hidden;
+}
+
+
+
+.flipcard.v:hover .card__back {
+    transform: rotateY(180deg);
+    transform-origin: center;
+}
+
+.flipcard.v:hover .card__face {
+    transform: rotateY(0deg);
+    transform-origin: center center;
+}
+
+.flipcard.v .card__face {
+    transform: rotateY(-180deg);
+    transform-origin: center center;
+}
+.d-flex_T, .img--pozition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+.card--red{
+    color: red;
+}
+.container_nominal{
+    position: relative;
+
+}
+.img--pozition{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}

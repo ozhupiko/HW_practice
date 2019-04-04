@@ -1,0 +1,125 @@
+/* styles goes here */
+body{
+    box-sizing: border-box;
+    width: 100%;
+    /* background: url(../c3b06c91-90b9-3c57-a044-f188759695f8.jpg); */
+    font: 0.85em/1.3 Arial, sans-serif;
+    background-color: #F1F1F1;
+}
+.search{
+    width: 70%;
+    height:150px ;
+    margin: 0px 0px 0px 120px;
+    background-color: #F1F1F1;
+    border: none;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    padding-top: 0px;
+    /* font-size: 100px; */
+    font-size: 100px;
+    color:RED; 
+    font-weight: bold;
+    outline:none;
+}
+.search:hover{
+    border: none;
+}
+input::placeholder { 
+    font-size: 100px;
+    color: white; 
+    font-weight: bold;
+}
+
+.submit{
+    background: none;
+    border: none;
+    color: transparent;
+    width: 120px;
+    height:120px; 
+    /* border: 1px solid black; */
+    /* margin-top: 50px; */
+    margin-left: 15px;
+    margin-bottom: -5px;
+    outline:none;
+    cursor: pointer;
+    background-image: url(../favicon.png);
+}
+h2{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #BCBCBC;
+}
+form{
+    /* border: 1px solid black; */
+    padding: 0px ;
+    margin-top: 50px;
+}
+li{
+    border: 1px solid #F1F1F1;
+    list-style-type: none;
+    margin-top: 0px;
+    height: 65px ;
+    margin-left: -30px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    background-color: #EBEBEC;
+    padding-top: 0px;
+}
+li:hover, h3:hover{
+    background-color: #8B8B8B;
+    color: red;
+    cursor: pointer;
+
+}
+/* h3:hover{
+    color: red;
+} */
+.row{
+    /* border: 1px solid black; */
+    margin: 0px 30px ;
+    width: 100% ;
+}
+.col-3{
+  
+   width: 28% ;
+}
+.c1, .c2{
+   margin-right: 80px;
+}
+.col{
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    margin-right: 42px;
+}
+ul{
+    margin-top: -10px ;
+}
+img.people{
+    border-radius: 50%;
+    
+
+}
+img{
+    margin: 0px;
+    float: left;
+    margin-right: 20px;
+    /* border: 1px solid black; */
+}
+a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px ;
+}
+h3{
+    /* margin-bottom: 20px; */
+    /* border: 1px solid black; */
+    color: #BCBCBC;
+    
+
+}

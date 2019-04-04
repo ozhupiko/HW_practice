@@ -1,0 +1,476 @@
+/* styles goes here */
+body {
+    width: 1640px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.fierst1,
+.fierst2 {
+    position: absolute;
+    width: 20px;
+    padding-top: 5px;
+    height: 20px;
+}
+
+.fierst1 {
+    top: 0px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.fierst2 {
+    top: 0px;
+    left: 820px;
+    width: 23px;
+}
+
+.litter {
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.col1 {
+    width: 100px;
+    top: 0px;
+}
+
+.a,
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+.a7,
+.a8,
+.a9 {
+    left: 20px;
+}
+
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7,
+.b8,
+.b9 {
+    left: 120px;
+}
+
+.c,
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9 {
+    left: 220px;
+}
+
+.d,
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6,
+.d7,
+.d8,
+.d9 {
+    left: 320px;
+}
+
+.e,
+.e1,
+.e2,
+.e3,
+.e4,
+.e5,
+.e6,
+.e7,
+.e8,
+.e9 {
+    left: 420px;
+}
+
+.f,
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8,
+.f9 {
+    left: 520px;
+}
+
+.g,
+.g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7,
+.g8,
+.g9 {
+    left: 620px;
+}
+
+.h,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7,
+.h8,
+.h9 {
+    left: 720px;
+}
+
+.fierst1a,
+.fierst1ap,
+.fierst2a,
+.fierst2ap,
+.fierst3a,
+.fierst3ap,
+.fierst4a,
+.fierst4ap,
+.fierst5a,
+.fierst5ap,
+.fierst6a,
+.fierst6ap,
+.fierst7a,
+.fierst7ap,
+.fierst8a,
+.fierst8ap {
+    position: absolute;
+    width: 20px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+.fierst1a {
+    top: 25px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.litter1 {
+    position: absolute;
+    height: 100px;
+}
+
+.col1a {
+    width: 100px;
+    top: 25px;
+}
+
+.fierst1ap {
+    top: 25px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst2a {
+    top: 125px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col2a {
+    width: 100px;
+    top: 125px;
+}
+
+.fierst2ap {
+    top: 125px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst2a {
+    top: 125px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col2a {
+    width: 100px;
+    top: 125px;
+}
+
+.fierst2ap {
+    top: 125px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst3a {
+    top: 225px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col3a {
+    width: 100px;
+    top: 225px;
+}
+
+.fierst3ap {
+    top: 225px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst4a {
+    top: 325px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col4a {
+    width: 100px;
+    top: 325px;
+}
+
+.fierst4ap {
+    top: 325px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst5a {
+    top: 425px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col5a {
+    width: 100px;
+    top: 425px;
+}
+
+.fierst5ap {
+    top: 425px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst6a {
+    top: 525px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col6a {
+    width: 100px;
+    top: 525px;
+}
+
+.fierst6ap {
+    top: 525px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst7a {
+    top: 625px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col7a {
+    width: 100px;
+    top: 625px;
+}
+
+.fierst7ap {
+    top: 625px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst8a {
+    top: 725px;
+    left: 0px;
+    background-color: aquamarine;
+}
+
+.col8a {
+    width: 100px;
+    top: 725px;
+}
+
+.fierst8ap {
+    top: 725px;
+    left: 820px;
+    background-color: aquamarine;
+}
+
+.fierst9,
+.fierst10 {
+    position: absolute;
+    width: 20px;
+    padding-top: 11px;
+    height: 20px;
+    background-color: aquamarine;
+}
+
+.fierst9 {
+    top: 825px;
+    left: 0px;
+
+}
+
+.litter2 {
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 6px;
+}
+
+.col2 {
+    width: 100px;
+    top: 825px;
+}
+
+.fierst10 {
+    top: 825px;
+    left: 820px;
+    width: 20px;
+    margin-left: 3px;
+}
+
+.dop {
+    width: 103px;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.fierst8ap,
+.fierst7ap,
+.fierst6ap,
+.fierst5ap,
+.fierst4ap,
+.fierst3ap,
+.fierst2ap,
+.fierst1ap {
+    transform: rotate(180deg);
+
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.fierst1,
+.fierst2,
+.fierst9,
+.fierst10,
+.fierst8ap,
+.fierst7ap,
+.fierst6ap,
+.fierst5ap,
+.fierst4ap,
+.fierst3ap,
+.fierst2ap,
+.fierst1ap,
+.a9,
+.b9,
+.c9,
+.d9,
+.e9,
+.f9,
+.g9,
+.h9,
+.fierst8a,
+.fierst7a,
+.fierst6a,
+.fierst5a,
+.fierst4a,
+.fierst3a,
+.fierst2a,
+.fierst1a {
+    border: none;
+    background-color: #93260E;
+    color: #DB986E;
+}
+
+.w {
+    background-color: #ECB260;
+}
+
+.v {
+    background-color: #942D0C;
+}
+
+.a1,
+.b1,
+.c1,
+.d1,
+.e1,
+.f1,
+.g1,
+.h1 {
+    border-top: 3px solid #FAC883;
+}
+
+.a8,
+.b8,
+.c8,
+.d8,
+.e8,
+.f8,
+.g8,
+.h8 {
+    border-bottom: 3px solid #FAC883;
+    padding-bottom: 3px;
+}
+
+.left {
+    border-left: 3px solid #FAC883;
+}
+
+.right {
+    border-right: 3px solid #FAC883;
+}
+
+.pl {
+    position: absolute;
+    top: 825px;
+    left: 820px;
+    width: 3px;
+    height: 6px;
+    background-color: #FAC883;
+
+}

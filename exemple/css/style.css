@@ -1,0 +1,631 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.row {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* Header */
+
+
+.header--h {
+    height: 740px;
+    background-image: url(../img/Image_header.png);
+    text-align: center;
+}
+
+.text__hero--h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 3.1px;
+}
+
+.text__hero--p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+    margin-top: -18px;
+    letter-spacing: 5.4px;
+}
+
+.header__text {
+    padding-top: 246px;
+}
+
+.input__search {
+    max-width: 500px;
+    width: 500px;
+    height: 58px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding-top: 2px;
+}
+
+.input__search[placeholder] {
+    letter-spacing: 0.9px;
+    
+}
+.input__search[placeholder]:focus {
+    letter-spacing: 0.9px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.btn__search {
+    max-width: 150px;
+    width: 150px;
+    height: 55px;
+    padding: 0;
+    margin-left: -6px;
+    background-color: #5474fd;
+    color: white;
+    border: none;
+    outline: none;
+    padding-top: 4px;
+}
+
+.search__span {
+    margin-right: 12px;
+    margin-left: 34px;
+    margin-top: 1px;
+}
+
+.label--br {
+    border: 1px solid white;
+    max-width: 652px;
+    width: 652px;
+    margin: auto;
+}
+
+.btn__search:hover,
+.input__search:hover {
+    cursor: text;
+    opacity: 0.8;
+}
+
+.header__scroll {
+    margin-top: 120px;
+    color: white;
+}
+
+.header__form {
+    margin-top: 47px;
+}
+
+.scroll__text {
+    margin-bottom: 0px;
+    letter-spacing: 0.9px;
+}
+
+.scroll__img {
+    padding-right: 4px;
+    padding-top: 8px;
+}
+
+.header__scroll--a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Menu */
+
+.menu {
+    padding: 27px 116px;
+    background-color: #5474fd;
+    letter-spacing: 1.2px;
+    background-color: #5474fd;
+}
+
+.menu__logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.nav__item {
+    padding: 0 5px;
+    margin-left: 37px;
+    color: white;
+    font-family: Aleo, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: -6px;
+    letter-spacing: 0px;
+
+}
+
+.nav__item::before {
+    display: block;
+    content: '';
+    width: 105%;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.nav__a,
+.logo__a,
+.panel__a,
+.now__search,
+.link__a,
+.logo__a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__item:hover:before {
+    visibility: visible;
+
+}
+
+
+/* Section why */
+
+
+.con__why {
+    background: url(../img/Rectangle-7.png)
+}
+
+.con__now {
+    background-color: #333333;
+    z-index: -3;
+}
+
+.why__h1 {
+    color: white;
+    font-family: Aleo, serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 205px;
+    margin: 0px;
+    letter-spacing: -0.2px;
+    padding-left: 64px;
+}
+
+.why__p {
+    color: #e8e8e8;
+    font-family: JosefinSans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 21px 0px;
+    letter-spacing: 1.4px;
+    padding-top: 46px;
+    padding-left: 63px;
+
+}
+
+.why__button {
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 5px 0px 132px 63px;
+    color: white;
+    background-color: #5474fd;
+    padding: 19px 38px 17px 26px;
+    letter-spacing: 1.1px;
+}
+
+.why__button:hover {
+    color: rgb(206, 44, 44);
+    background-color: #f0ebea;
+}
+.button__p{
+    margin: 0px;
+    padding-left: 11px;
+}
+
+.img__why1 {
+    
+    margin-left: 78px;
+} 
+
+ .img__why2 {
+    
+    padding-left: 203px;
+} 
+
+/* Icon */
+
+
+.icon-search1 {
+    font-size: 72px;
+    color: #5474fd;
+    margin-left: -22px;
+    z-index: 1;
+    font-family: 'my_icon';
+}
+
+.icon-check {
+    font-size: 72px;
+    color: #ff6363;
+}
+
+.icon-like2 {
+    font-size: 72px;
+    color: #0d85ca;
+    margin-right: -15px;
+}
+
+
+/* Section now */
+
+
+
+
+
+
+.con__now {
+    text-align: center;
+    position: relative;
+}
+
+/* .row__now {
+    padding-top: 95px;
+    padding-bottom: 84px;
+
+} */
+
+.now__h2 {
+    color: #e8e8e8;
+    font-family: Aleo, serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.now__h2--mg1 {
+    margin-left: -19px;
+    margin-top: 25px;
+    letter-spacing: 1.5px;
+}
+
+.now__h2--mg2 {
+    padding-left: 0px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.now__h2--mg3 {
+    margin-top: 25px;
+    letter-spacing: 0.3px;
+    margin-left: 15px;
+}
+
+.now__icon:hover,
+.now__h2:hover {
+    opacity: 0.5;
+}
+
+.Shape {
+    width: 100%;
+    z-index: -2;
+    margin-left: 0px;
+   
+    margin-bottom: -51px;
+}
+.row__now__img{
+    padding-top: 44px;
+}
+.row_now{
+    margin-top: 4px;
+}
+
+.now__icon {
+    position: relative;
+}
+
+.now__icon--after--pos1::after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 131px;
+    background-color: #333333;
+    position: absolute;
+    top: -5px;
+    left: 0%;
+    transform: translate(-50% -50%);
+    z-index: -1;
+
+}
+
+.now__icon--after--pos2::after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 145px;
+    background-color: #333333;
+    position: absolute;
+    top: -4px;
+    left: 0%;
+    transform: translate(-50% -50%);
+    z-index: -1;
+
+}
+
+.now__icon--after--pos3::after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 147px;
+    background-color: #333333;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    transform: translate(-50% -50%);
+    z-index: -1;
+
+}
+.col__now{
+    padding-bottom: 90px;
+}
+
+/* Section group */
+
+
+.con__group1 {
+    background-image: url(../img/Rectangle\ 414.png);
+    text-align: left;
+    
+}
+
+.con__group2 {
+    background-image: url(../img/Rectangle\ 4141.png);
+    text-align: left;
+
+}
+
+.col__group1 {
+    margin-top: 229px;
+    background-color: rgb(53,46,42, 0.9);
+
+    padding: 25px 30px 50px 28px;
+    margin-bottom: 99px;
+    margin-left: -27px;
+
+}
+
+.group1__spain, .group2__spain  {
+    color: #e8e8e8;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+    letter-spacing: 0.4px;
+    margin-top: 23px;
+}
+.group2__spain{
+    margin-top: 17px;
+    margin-bottom: 23px;
+    padding-left: 1px;
+}
+.group1__grand, .group2__grand {
+    color: white;
+    letter-spacing: -0.9px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-top: 1px;
+}
+
+.group1__text, .group2__text  {
+    color: #e8e8e8;
+    margin-bottom: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -1px;
+    margin-top: 17px;
+}
+.group2__text{
+    letter-spacing: -1.1px;
+    padding-left: 4px;
+    margin-top: 19px;
+}
+
+.group1__btn, .group2__btn {
+    max-width: 226px;
+    width: 226px;
+    height: 61px;
+    margin-left: -6px;
+    background-color: #5474fd;
+    color: white;
+    border: none;
+    outline: none;
+    padding-top: -2px;
+    text-transform: uppercase;
+    margin-left: -1px;
+    letter-spacing: 0.3px;
+}
+.group2__btn{
+    margin-left: 2px;
+    margin-top: -2px;
+}
+
+
+.group1__btn:hover,.group2__btn:hover  {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.button__p1{
+    margin: 0px;
+    padding-left: 2px;
+}
+.button__p2{
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.row__group1 {
+    padding-left: 27px;
+}
+
+.col__group2--mg {
+    margin-left: 544px;
+    margin-top: 230px;
+}
+
+
+/* Section what */
+
+.con__what {
+    background-image: url(../img/Rectangle\ 4142.png);
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 197px;
+}
+
+.what__h1 {
+    display: block;
+}
+
+.row__what {
+    max-height: 285px;
+    height: 285px;
+}
+
+.what__img {
+    float: left;
+    margin-right: 59px;
+}
+
+.what__h1 {
+    color: white;
+    font-family: Aleo, serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1px 0px 100px -1px;
+    letter-spacing: -0.4px;
+}
+
+.what__sumon {
+    text-align: left;
+}
+
+.what__h2 {
+    color: #fefefe;
+    letter-spacing: -0.8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.what__p {
+    color: #e8e8e8;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 38px;
+    letter-spacing: -0.9px;
+}
+
+.fas {
+    color: #5474fd;
+    font-family: FontAwesome;
+    font-size: 20px;
+    float: left;
+    display: block;
+    margin-right: 9px;
+}
+
+.con__what {
+    
+}
+
+.what__sumon--bg {
+    background-image: url(../img/Rectangle\ 4143.png);
+    margin-top: -1px;
+    padding: 8px 15px 25px 0px;
+}
+
+/* Footer */
+
+.Bhromaon {
+    background-color: #232323;
+    margin-top: 0;
+}
+
+.row__footer {
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+}
+
+.logo__text--h1 {
+    
+    margin: 0px;
+    color: white;
+    letter-spacing: 2.4px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.logo__text--p {
+    padding-top: 11px;
+    color: white;
+    margin: -5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    letter-spacing: 0.6px;
+}
+
+.fab {
+    font-size: 16px;
+    margin: -7px 18px 53px 3px;
+    padding-left: 3px;
+}
+
+.f1 {
+    margin-left: 11px;
+}
+
+.link {
+    margin-top: -5px;
+}
+
+.f:hover, .logo__text:hover {
+    color: #5474fd;
+}
+.icon-search1--small{
+    font-size: 24px;
+    color: white;
+    margin-left: 0px;
+}
