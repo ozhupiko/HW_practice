@@ -87,11 +87,15 @@ body {
     margin: auto;
 }
 
-.btn__search:hover,
 .input__search:hover {
     cursor: text;
     opacity: 0.8;
 }
+.btn__search:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 
 .header__scroll {
     margin-top: 120px;

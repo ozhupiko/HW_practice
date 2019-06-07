@@ -1,0 +1,205 @@
+.services {
+    background-color: #ebebeb;
+    z-index: -3;
+    position: relative;
+
+    @media (max-width:1200px) {
+        padding-bottom: 100px;
+    }
+
+    @media (max-width:376px) {
+        padding-bottom: 0px;
+
+        .col-4.col-mob {
+            max-width: 100% !important;
+            height: 500px;
+        }
+    }
+
+    &--mr {
+        margin-right: -67px;
+
+        @media (max-width:1200px) {
+            margin-right: 0px;
+        }
+
+        @media (max-width:376px) {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+    }
+
+    &--mt {
+        margin-top: -36px;
+
+    }
+
+    &__card {
+        text-align: center;
+
+        &--bg1 {
+            background-color: #dbdbdb;
+            padding-bottom: 38px;
+
+        }
+
+        &--bg2 {
+            background-color: #ebebeb;
+            padding-bottom: 38px;
+
+            @media (max-width:1200px) {
+                background-color: #c2bfda;
+            }
+        }
+
+        &--bg3 {
+            background-color: #c2bfda;
+            padding-bottom: 1px;
+        }
+
+        &__img {
+            background-image: url(../img/services.jpg );
+            background-position: 56% 91%;
+            background-size: 245%;
+            height: 400px;
+            position: relative;
+            text-align: center;
+
+
+            &:after {
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: #9f9acf;
+                opacity: 0.5;
+                position: absolute;
+                content: "";
+                z-index: 0;
+            }
+        }
+    }
+
+    &__title {
+
+        font-family: 'PT Sans', sans-serif;
+        color: #665f60;
+        font-style: bold;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 20px;
+
+        &--white {
+
+
+
+            color: #fefcfd;
+            font-family: 'ProximaNova'sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+    }
+
+    &__subtitle {
+
+        font-family: 'PT Sans', sans-serif;
+        color: #665f60;
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 104px;
+
+        &--white {
+            color: #fefcfd;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 18px;
+            font-style: italic;
+            margin-top: 97px;
+
+            @media (max-width:376px) {
+                margin-top: 42px;
+                padding: 16px;
+            }
+        }
+
+        &--borat {
+            visibility: hidden;
+
+            @media (max-width:1200px) {
+                visibility: visible;
+            }
+        }
+    }
+
+    &--z {
+        z-index: -5;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        max-width: 380px;
+        padding-bottom: 24px;
+
+    }
+
+    &--z2 {
+        z-index: -5;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        max-width: 380px;
+
+        @media (max-width:376px) {
+
+            margin-bottom: 30px;
+
+        }
+    }
+
+    &--h {
+        z-index: -5;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        max-width: 410px;
+
+        @media (max-width:1200px) {
+            max-width: 768px;
+            margin-bottom: 61px;
+            min-width: 330px;
+        }
+    }
+
+    &--visibl {
+        @media (max-width:1200px) {
+            visibility: hidden;
+            position: absolute;
+        }
+    }
+
+    &__icon {
+        margin-top: 100px;
+
+        &--mt {
+            margin-top: 118px;
+        }
+    }
+
+    &__icon2 {
+        margin-top: 85px;
+
+        &--mt {
+            margin-top: 118px;
+        }
+    }
+}
+
+
+span.borat {
+    color: #fefcfd;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}

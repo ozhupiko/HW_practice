@@ -1,0 +1,137 @@
+.works {
+    position: relative;
+    max-width: 100%;
+    height: 1000px;
+    background-image: url(/img/works.jpg );
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    vertical-align: middle;
+
+    &:after {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #9f9acf;
+        opacity: 0.95;
+        position: absolute;
+        content: "";
+        z-index: 0;
+    }
+
+    &__icon {
+        margin-top: 50px;
+    }
+
+    &__subtitle {
+
+        margin-top: 20px;
+        color: #fefcfd;
+        font-family: 'ProximaNova'sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+
+        @media (max-width:376px) {
+            font-size: 24px;
+        }
+    }
+
+    &__img1 {
+        @media (max-width:968px) {
+            margin-left: -16px;
+        }
+    }
+
+    &__img {
+        @media (max-width:968px) {
+            position: relative;
+            display: block;
+            z-index: 1;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.slick {
+    width: 100%;
+    height: 1000px;
+}
+
+.slick__slide {
+    margin-top: 66px;
+    margin-left: 188px;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width:968px) {
+        margin: auto;
+        width: 80%;
+    }
+
+    .slick-prev {
+        background-image: url(../img/arrowleft.png);
+        width: 20px;
+        height: 40px;
+        margin-left: -229px;
+
+        @media (max-width:968px) {
+            margin-left: -27px;
+        }
+
+        &::before {
+            content: none;
+
+        }
+
+        @media (max-width:376px) {
+            visibility: hidden;
+            margin-left: 0px;
+            position: absolute
+        }
+    }
+
+    .slick-next {
+        background-image: url(../img/arrowright.png);
+        width: 20px;
+        height: 40px;
+        margin-right: -19px;
+
+        &::before {
+            content: none;
+
+        }
+
+        @media (max-width:376px) {
+            visibility: hidden;
+            margin-right: 0px;
+            position: absolute
+        }
+    }
+
+    .slick-dots li button {
+        &::before {
+            color: white;
+        }
+
+    }
+
+    .slick-dots {
+        margin-left: 0px;
+        bottom: -54px;
+        margin-left: -102px;
+
+        @media (max-width:968px) {
+            margin-left: 0px;
+        }
+    }
+}
+
+.slick-dots li.slick-active button:before {
+    color: white !important;
+}
+
+.slick-dots li {
+    margin: 0 -2px !important;
+}

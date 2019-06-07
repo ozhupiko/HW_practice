@@ -1,0 +1,80 @@
+.header {
+    position: relative;
+    max-width: 100%;
+    height: 1070px;
+    background-image: url(../img/Фон.jpg );
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    // z-index: -1;
+    vertical-align: middle;
+    @media (max-width:376px) {
+        height: 650px;
+     }
+    &__title{
+        margin-top: 356px;
+        margin-left: 107px;
+        @media (max-width:968px) {
+           margin: auto;
+           margin-top: 356px;
+        }
+        @media (max-width:376px) {
+            margin: auto;
+            margin-top: 203px;
+         }
+        &__text{
+          font-family: 'ProximaNova', sans-serif;
+          color: white;
+          font-size: 72px;
+          font-weight: 700;
+          line-height: 60px;
+          text-transform: uppercase;
+          margin-bottom: 23px;
+          @media (max-width:576px) {
+            font-size: 36px;
+          }
+      }
+    }
+    &__subtitle{
+        font-family: 'PT Sans', sans-serif;
+        color: #fefdfd;
+        font-size: 30px;
+        font-style: italic;
+        @media (max-width:376px) {
+            font-size: 20px;
+            padding: 3px;
+          }
+    }
+    &:after{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #9f9acf;
+        opacity: 0.5;
+        position: absolute;
+        content: "";
+        z-index: 1;
+       
+    }
+    
+    &__navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    }
+    &__logo{
+        margin-left: 47px;
+        @media (max-width:376px) {
+            margin-left: 17px;
+          }
+    }
+    &__logo__link__img{
+        width: 80%;
+    }
+    
+}
+ 
+
+

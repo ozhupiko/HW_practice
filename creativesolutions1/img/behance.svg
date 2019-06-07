@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0188f5;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="341" y="4337" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#ebebeb"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="behance" class="cls-1" d="M357,4337a16,16,0,1,1-16,16A16,16,0,0,1,357,4337Zm-10,10h5.793c2.344,0,3.929.79,3.929,2.97a2.558,2.558,0,0,1-1.673,2.44,2.879,2.879,0,0,1,2.259,2.97c0,2.37-2.12,3.39-4.344,3.39H347V4347Zm2.475,4.71h2.972a1.4,1.4,0,0,0,1.655-1.39c0-1.12-.9-1.35-1.861-1.35h-2.766v2.74Zm0,5.16H352.6c1.069,0,1.922-.33,1.922-1.54s-0.715-1.67-1.87-1.67h-3.179v3.21Zm10.924-2.04c0.069,1.47.827,2.42,2.188,2.42a2.315,2.315,0,0,0,2.035-1.3h2.154a4.554,4.554,0,0,1-8.851-1.41,4.374,4.374,0,0,1,4.576-4.47c3.034,0,4.5,2.16,4.327,4.76H360.4Zm3.982-1.52c-0.225-1.18-.76-1.48-1.949-1.48-1.551,0-2,.82-2.033,1.48h3.982Zm0.774-3.95h-4.931v-1.57h4.931v1.57Z" transform="translate(-341 -4337)"/>
+</svg>

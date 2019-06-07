@@ -1,0 +1,75 @@
+.btn {
+    width: 194px;
+    height: 50px;
+    border: 1px solid black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    color: #7d7a7c;
+    line-height: 1.571;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    &--primery{
+        margin-top: 77px;
+        margin-left: 226px;
+        @media (max-width:968px) {
+            margin-top: 60px;
+    margin-left: 82px;
+        }
+    }
+    
+    &:hover {
+       border-radius: 70%;
+        background-color: #9f9acf;
+    }
+   &__works{
+       
+color: white;
+   
+font-family:  'PT Sans', sans-serif;
+font-size: 20px;
+font-style: italic;
+border-color: white;
+margin-top: 66px;
+@media (max-width:968px) {
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    margin-top: 115px;
+}
+   }
+}
+.btn__contact{
+    width: 293px;
+    height: 67px;
+    font-size: 20px;
+    color: white;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    background-color: #9f9acf;
+    font-style: bold !important;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #8783b0;
+    margin-top: 52px;
+    margin-left: 2px;
+
+    &:hover{
+        border-radius: 70%;
+    }
+    @media (max-width:968px) {
+        width: 213px;
+    height: 56px;
+    
+    margin-top: 24px;
+    margin-left: 11px;
+    }
+        }
+        

@@ -1,0 +1,21 @@
+.contact__btn,
+.gallery__btn,
+.PROJECTS2__btn,
+.PROJECTS__btn {
+    width: 190px;
+    height: 51px;
+    border: 1px solid black;
+    margin-top: 16px;
+    font-size: 14px;
+    font-family: "Gotham", sans-serif;
+    color: rgb(44, 64, 88);
+    text-transform: uppercase;
+    line-height: 1.571;
+    text-align: center;
+    border-radius: 0px !important;
+
+     &:hover {
+        opacity: .72;
+    }
+}
+

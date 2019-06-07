@@ -1,0 +1,57 @@
+// Minimum and maximum screen sizes
+$screen-xl-min: 1200px;
+$screen-lg-max: ($screen-xl-min - 1);
+$screen-lg-min: 992px;
+$screen-md-max: ($screen-lg-min - 1);
+$screen-md-min: 768px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-sm-min: 480px;
+$screen-xs-max: ($screen-sm-min - 1);
+
+// Breakpoints based on minimum screen width
+$breakpoints-up: (
+    sm: $screen-sm-min,
+    md: $screen-md-min,
+    lg: $screen-lg-min,
+    xl: $screen-xl-min
+);
+
+// Breakpoints based on maximum screen width
+$breakpoints-down: (
+    xs: $screen-xs-max,
+    sm: $screen-sm-max,
+    md: $screen-md-max,
+    lg: $screen-lg-max
+);
+
+// Breakpoints based on minimum and maximum screen widths
+$breakpoints-only: (
+    sm: ($screen-sm-min, $screen-sm-max),
+    md: ($screen-md-min, $screen-md-max),
+    lg: ($screen-lg-min, $screen-lg-max)
+);
+
+// Container width
+$container-xl: 1170px;
+$container-lg: 970px;
+$container-md: 750px;
+
+// Column gutter
+$gutter: 15px;
+
+// Fonts
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+
+// Font sizes
+$font-size-default: 16px;
+
+// Font weight values
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Line height values
+$line-height-base: 1.5;
+
+// Color palette
+$color-black: #000;
+$color-white: #fff;
